@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:gravity="center_horizontal" >
+
+    <ImageView
+        android:id="@+id/imgBookLogo_detail"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/book_256" />
+
+    <TextView
+        android:id="@+id/txtBookName_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBookLogo_detail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Book Name Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtBookAuthor_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBookName_detail"
+        android:layout_centerHorizontal="true"
+        android:text="Author Author Author"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtBookData_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBookAuthor_detail"
+        android:layout_centerHorizontal="true"
+        android:text="Release Data"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="94px"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/btn_play"
+        android:minHeight="100px"
+        android:onClick="play_book_button_click" />
+    <SeekBar
+        android:id="@+id/seekBar_volume"
+        android:layout_width="216px"
+        android:layout_height="100px"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button_play"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/volume_bckgr"
+        android:max="100"
+        android:maxHeight="100px"
+        android:minHeight="100px"
+        android:paddingLeft="55px"
+        android:paddingRight="30px"
+        android:progress="50"
+        android:progressDrawable="@drawable/volume_seek"
+        android:thumb="@drawable/seek_control"
+        android:thumbOffset="5px" />
+
+    <Button
+        android:id="@+id/button_download"
+        android:layout_width="117px"
+        android:layout_height="93px"
+        android:layout_above="@+id/seekBar_volume"
+        android:layout_alignRight="@+id/seekBar_volume"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_download"
+        android:onClick="download_book_button_click" />
+
+    <Button
+        android:id="@+id/button_show_download"
+        android:layout_width="117px"
+        android:layout_height="93px"
+        android:layout_alignBaseline="@+id/button_download"
+        android:layout_alignBottom="@+id/button_download"
+        android:layout_alignLeft="@+id/button_play"
+        android:background="@drawable/btn_list"
+        android:onClick="showDownload" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignBottom="@+id/button_play"
+        android:layout_toLeftOf="@+id/seekBar_volume"
+        android:layout_toRightOf="@+id/button_play"
+        android:background="@drawable/loading_progress"
+        android:max="100"
+        android:maxHeight="100px"
+        android:minHeight="100px"
+        android:progress="0"
+        android:progressDrawable="@drawable/volume_seek"
+        android:thumb="@drawable/seek_control" 
+        android:thumbOffset="5px"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_show_download"
+        android:layout_alignBottom="@+id/button_show_download"
+        android:layout_centerHorizontal="true"
+        android:text="00:00 / 00:00"
+        android:textColor="#FFF"
+        android:typeface="monospace" />
+"
+
+</RelativeLayout>

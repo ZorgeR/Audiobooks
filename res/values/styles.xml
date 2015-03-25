@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" >      
+    </style>
+    <style name="SettingsTheme" parent="android:Theme.Holo"></style>
+
+    <style name="PagerTitleStrip">
+    <item name="android:textSize">12sp</item>
+</style>
+    
+    
+</resources>

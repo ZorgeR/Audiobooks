@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Аудиокниги</string>
+    <string name="title_section4">Научная фантастика</string>
+    <string name="title_section3">Современная литература</string>
+    <string name="title_section2">Классика</string>
+    <string name="title_section1">Главное</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="update_button">Обновить</string>
+    <string name="flush">Сбросить</string>
+    <string name="menu_exit">Выход</string>
+    <string name="title_activity_audiobooks_main">Аудиокниги</string>
+    <string name="SettingsCategoryMain">Основные</string>
+    <string name="SettingsCategoryView">Внешний вид</string>
+    <string name="SettingsLanguage">Язык</string>
+    <string name="SettingsLanguageDiscription">В списках будут книги на выбранных языках</string>
+    <string name="settings_name">Настройки</string>
+    <string name="SettingsRootTitleTheme">Оформление</string>
+    <string name="SettingsRootDiscriptionTheme">Требуется перезагрузка</string>
+    <string name="first_run_need_update">"Похоже что это первый запуск приложения!</string>
+    <string name="errNoInternet">Нет доступа в интернет!</string>
+    <string name="UpdateComplete">База книг обновлена!</string>
+    <string name="errXMLparse">Ошибка разбора XML!</string>
+    <string name="no_item">Нет элементов в данном представлении!</string>
+    <string name="Header">Книг:</string>
+    <string name="hello">Здравствуйте!</string>
+    <string name="flush_done">База удалена!</string>
+    <string name="errNoSD">Ошибка доступа к XML!</string>
+    <string name="deletebook">Удалить кеш</string>
+    <string name="stop">Стоп</string>
+    <string name="pause">Пауза</string>
+    <string name="buildinplayer">Плеер</string>
+</resources>

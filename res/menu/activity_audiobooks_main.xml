@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/flush"
+        android:title="@string/flush"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/update_button"
+        android:title="@string/update_button"
+        android:orderInCategory="101"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="102"
+        android:showAsAction="never" />
+    <item android:id="@+id/exit"
+        android:title="@string/menu_exit"
+        android:showAsAction="never"
+        android:orderInCategory="109"></item>
+</menu>

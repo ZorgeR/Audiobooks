@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+                <PreferenceCategory android:title="@string/SettingsCategoryMain" android:key="SettingsCategoryMain">
+                    <MultiSelectListPreference android:title="@string/SettingsLanguage" android:summary="@string/SettingsLanguageDiscription" android:key="SettingsLanguage2" android:entryValues="@array/listLanguageValue" android:entries="@array/listLanguage"/>
+                    <SwitchPreference android:title="@string/buildinplayer" android:key="buildinplayer" android:defaultValue="true"/>
+                </PreferenceCategory><PreferenceCategory android:title="@string/SettingsCategoryView" android:key="SettingsCategoryView">
+        <ListPreference android:entryValues="@array/listThemesValue" android:entries="@array/listThemes" android:title="@string/SettingsRootTitleTheme" android:summary="@string/SettingsRootDiscriptionTheme" android:key="SettingsThemeID" android:defaultValue="0" />
+        
+                </PreferenceCategory>
+    </PreferenceScreen>

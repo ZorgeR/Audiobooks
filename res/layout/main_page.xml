@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/paper_page2"
+    >
+
+    </LinearLayout>
+    
+    
+    <ImageView
+        android:id="@+id/icoLibrary_Logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/book_256" />
+
+    <TextView
+        android:id="@+id/txtLibrary_Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icoLibrary_Logo"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/icoLibrary_Logo"
+        android:text="Библиотека"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#582c00"
+        android:textSize="16dp"
+        android:typeface="monospace" />
+
+        
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/icoLibrary_Logo"
+        android:layout_below="@+id/icoLibrary_Logo"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:text="Инфо:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="2dp"
+        android:text="Число книг:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="2dp"
+        android:text="По факту:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="2dp"
+        android:text="Объем:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView03"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="2dp"
+        android:text="Тип:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView04"
+        android:layout_below="@+id/TextView04"
+        android:layout_marginTop="2dp"
+        android:text="Обновлено:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView05"
+        android:layout_below="@+id/TextView05"
+        android:layout_marginTop="2sp"
+        android:text="XML:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView06"
+        android:layout_below="@+id/TextView06"
+        android:layout_marginTop="2dp"
+        android:text="URL:"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtStorageSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_toRightOf="@+id/TextView03"
+        android:text="Объем"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />"
+
+    <TextView
+        android:id="@+id/txtBookXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView03"
+        android:layout_toRightOf="@+id/TextView02"
+        android:text="КНИГ"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtDiscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView01"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Описание"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtBookTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView02"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="Всего"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView04"
+        android:layout_alignBottom="@+id/TextView04"
+        android:layout_toRightOf="@+id/TextView04"
+        android:text="Тип"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtLastUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView05"
+        android:layout_alignBottom="@+id/TextView05"
+        android:layout_toRightOf="@+id/TextView05"
+        android:text="Обновления"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtXMLUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView06"
+        android:layout_alignBottom="@+id/TextView06"
+        android:layout_toRightOf="@+id/TextView06"
+        android:text="XML URL"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtLibUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView07"
+        android:layout_alignBottom="@+id/TextView07"
+        android:layout_toRightOf="@+id/TextView07"
+        android:text="Lib URL"
+        android:textColor="#582c00"
+        android:textSize="12dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txtLibrary_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLibrary_Head"
+        android:layout_toRightOf="@+id/icoLibrary_Logo"
+        android:text="Z-lab"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#582c00"
+        android:textSize="16dp"
+        android:typeface="monospace" />
+    
+</RelativeLayout>
