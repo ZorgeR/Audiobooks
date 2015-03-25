@@ -64,10 +64,6 @@ public class AudiobooksDetail extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.detail_page);
-            
-            /*
-             * 
-             * */
 
         	BookName = getIntent().getExtras().getString("BookName");
         	Author = getIntent().getExtras().getString("Author");
